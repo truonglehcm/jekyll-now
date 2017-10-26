@@ -23,11 +23,29 @@ body {
   color: $darkGray;
 }
 
+
 .container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
+	margin: 0 auto;
+  	padding: 0 10px;
+  	width: 100%;
+}
+
+
+@media (min-width: 1200px) {
+	.container {
+	    width: 1170px;
+	}
+}
+@media (min-width: 992px) {
+	.container {
+	    width: 970px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+	    width: 750px;
+	}
 }
 
 h1, h2, h3, h4, h5, h6 {
