@@ -25,3 +25,22 @@ $georgia: Georgia, serif;
     @content;
   }
 }
+
+@mixin tablets {
+  @media (max-width: 768px) { 
+    @content;
+  }
+}
+
+@mixin desktops {
+  @media (min-width: 992px) { 
+    @content;
+  }
+}
+
+
+@mixin large-desktops {
+  @media (min-width: 1200px) { 
+    @content;
+  }
+}
